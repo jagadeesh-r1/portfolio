@@ -447,7 +447,28 @@ main {
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
+.resume-button {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 16px;
+  color: #9e0707;
+  background-color: #636400;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
 
+.resume-button:hover {
+  background-color: #02c4ff;
+  color: #fff; /* Ensure text color remains white on hover */
+}
+
+.resume-button i {
+  margin-left: 8px; /* Add some space between the text and the icon */
+}
 
 
 /*-----------------------------------*\
