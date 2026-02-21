@@ -1,0 +1,97 @@
+══════════════════════════════════════════════════════════════
+  🎨 YOUR NEW PORTFOLIO - VISUAL PREVIEW
+══════════════════════════════════════════════════════════════
+
+┌────────────────────────────────────────────────────────────┐
+│  [JRV.]              Home About Experience Projects Contact │
+├────────────────────────────────────────────────────────────┤
+│                                                             │
+│              👋 Hello, I'm                                  │
+│        Jagadeesh Reddy [VANGA]                             │
+│     ← gradient purple/indigo on name                       │
+│                                                             │
+│      Generative AI Research Engineer                       │
+│   Building intelligent systems with LLMs at                │
+│            Vanderbilt University                           │
+│                                                             │
+│     [Get In Touch] [View Projects]                         │
+│        ↑ glowing       ↑ outlined                          │
+│                                                             │
+│      [GitHub] [LinkedIn] [Email]                           │
+│        ← circular icons with hover glow                    │
+│                                                             │
+└────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────┐
+│                   [Experience]                              │
+│                    ← gradient text                          │
+├────────────────────────────────────────────────────────────┤
+│  ●━━━ Generative AI Research Engineer                      │
+│  │    Vanderbilt University                                │
+│  │    Sept 2025 - Present                                  │
+│  │    [GenAI] [LLMs] [AWS]  ← pill badges                  │
+│  │                                                          │
+│  ●━━━ Data & AI Engineer                                   │
+│  │    Haystream                                            │
+│  │    May 2025 - Aug 2025                                  │
+│  │    [Snowflake] [ETL]                                    │
+│  │                                                          │
+│  ●━━━ Generative AI Engineer                               │
+│       Astoria AI                                           │
+│       Apr 2025 - Jun 2025                                  │
+│       [RAG] [Pinecone]                                     │
+└────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────┐
+│              [Featured Projects]                            │
+│                  ← gradient text                            │
+├─────────────┬─────────────────┬──────────────────────────┤
+│ 🎤          │ 📊             │ 🏥                       │
+│ AI Interview│ DataPulse      │ TeleMedi                 │
+│ Agent       │ 🏆 Best in Show│                          │
+│             │                 │                          │
+│ [View →]    │ [View →]       │ [View →]                 │
+└─────────────┴─────────────────┴──────────────────────────┘
+
+┌────────────────────────────────────────────────────────────┐
+│                  [Let's Connect]                            │
+│                   ← gradient text                           │
+├───────────────┬──────────────────┬────────────────────────┤
+│  📧          │  💼             │  📍                    │
+│  Email       │  LinkedIn        │  Location              │
+│  jvanga@...  │  vanga-jagadeesh │  Nashville, TN         │
+└───────────────┴──────────────────┴────────────────────────┘
+
+══════════════════════════════════════════════════════════════
+  DESIGN FEATURES:
+══════════════════════════════════════════════════════════════
+
+🎨 Colors:
+   - Deep black background (#0a0a0f)
+   - Purple/Indigo gradients for accents
+   - Muted text for secondary content
+   
+✨ Animations:
+   - Cards lift on hover with glow
+   - Buttons have smooth transitions
+   - Timeline dots pulse subtly
+   - Social icons scale and glow
+   
+💫 Background:
+   - Floating gradient orbs (animated)
+   - Radial gradient overlays
+   - Fixed position, no scroll
+   
+🔮 Effects:
+   - Glassmorphism on navbar
+   - Box shadows with glow
+   - Backdrop blur filters
+   - Smooth scroll behavior
+   
+📱 Responsive:
+   - 3-column grid on desktop
+   - 1-column stack on mobile
+   - Flexible navigation
+   - Touch-friendly spacing
+
+══════════════════════════════════════════════════════════════

@@ -1,0 +1,22 @@
+ENHANCED PORTFOLIO - COMPLETE BUILD GUIDE
+==========================================
+
+This document contains ALL the code for your enhanced portfolio.
+Copy each section to the respective files.
+
+The enhanced design includes:
+- ALL 6 work experiences (Vanderbilt, Haystream, Astoria, Skit.ai, Eunimart x2)
+- ALL 9 projects (DataPulse, AI Interview, TeleMedi, Semantic Search, myArm, VizDoom, AR Golf, BetterYou, Ground Water)
+- Particle animation background
+- Scroll-triggered reveal animations  
+- Enhanced hover effects and transitions
+- Stats counters on hero section
+- Skills grid with categories
+- Improved typography and spacing
+- Mobile responsive design
+
+FILES TO UPDATE:
+1. index.html - Complete HTML structure
+2. styles.css - Enhanced CSS with animations
+3. script.js - JavaScript for particles and interactions
+

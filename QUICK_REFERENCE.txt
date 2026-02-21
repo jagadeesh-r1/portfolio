@@ -1,0 +1,89 @@
+═══════════════════════════════════════════════════════════════
+  📋 PORTFOLIO UPDATE - QUICK REFERENCE
+═══════════════════════════════════════════════════════════════
+
+📍 REPOSITORY LOCATION:
+   /c/Users/jagad/portfolio-update
+
+📍 WHAT TO DO NOW:
+   cd /c/Users/jagad/portfolio-update
+   git push origin master
+
+═══════════════════════════════════════════════════════════════
+  ✨ SUMMARY OF CHANGES
+═══════════════════════════════════════════════════════════════
+
+✅ UPDATED (2):
+   • Job Title: "Generative AI Research Engineer"
+   • Location: "Nashville, Tennessee, USA"
+
+✅ ADDED (7 new items):
+   
+   WORK EXPERIENCE (3):
+   1. Vanderbilt University - GenAI Research Engineer
+   2. Haystream - Data & AI Engineer (Contract)
+   3. Astoria AI - GenAI Engineer (Part-time, OPT)
+   
+   PROJECTS (3):
+   4. AI Interview Agent
+   5. TeleMedi
+   6. Semantic Product Search Engine
+   
+   SERVICES (1):
+   7. Generative AI card in "What I'm doing"
+
+═══════════════════════════════════════════════════════════════
+  📊 BEFORE vs AFTER
+═══════════════════════════════════════════════════════════════
+
+BEFORE:
+  - Title: "Software Developer"
+  - Location: "StonyBrook, NewYork"
+  - Latest Job: Skit.ai (Oct 2021 - Dec 2022)
+  - Projects: 8 projects
+
+AFTER:
+  - Title: "Generative AI Research Engineer" ✨
+  - Location: "Nashville, Tennessee" ✨
+  - Latest Job: Vanderbilt University (Sept 2025 - Present) ✨
+  - Projects: 11 projects (added 3) ✨
+
+═══════════════════════════════════════════════════════════════
+  🎯 YOUR PORTFOLIO NOW SHOWS:
+═══════════════════════════════════════════════════════════════
+
+Current Position: Generative AI Research Engineer @ Vanderbilt
+Timeline: Sept 2025 - Present (5 months)
+
+Recent Experience (2024-2025):
+  • Vanderbilt University (current)
+  • Haystream (contract, 4 months)
+  • Astoria AI (part-time, 3 months)
+  • Master's degree completed Dec 2024
+
+Previous Experience (2019-2022):
+  • Skit.ai - Software Engineer (14 months)
+  • Eunimart - Team Lead & Developer (2+ years)
+
+Latest Projects:
+  • AI Interview Agent (voice-based interviews)
+  • TeleMedi (healthcare platform)
+  • Semantic Product Search (vector DB)
+
+═══════════════════════════════════════════════════════════════
+  📁 FILES TO REVIEW:
+═══════════════════════════════════════════════════════════════
+
+Main Update:
+   ▶ index.html (121 lines added, 4 deleted)
+
+Documentation:
+   ▶ PORTFOLIO_UPDATE_SUMMARY.md (detailed changelog)
+   ▶ QUICK_REFERENCE.txt (this file)
+
+═══════════════════════════════════════════════════════════════
+
+All changes committed! Ready to push to GitHub.
+Git commit: 8b18cca
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,27 @@
+ENHANCED CSS FILE - Copy this content to styles.css
+
+This enhanced CSS includes:
+- Advanced animations (fade-in, slide-up, pulse, gradient flow)
+- Particle background support
+- Smooth transitions and hover effects
+- Glassmorphism navbar
+- Glowing accent effects
+- Timeline with gradient line
+- Enhanced project cards with hover scale
+- Responsive design for mobile
+- Scroll-triggered reveal animations
+- Hero stats counter styling
+- Improved typography and spacing
+
+The current styles.css needs to be replaced with enhanced version.
+Key enhancements:
+1. Gradient animations on text
+2. Particle canvas support
+3. Enhanced hover states with 3D transforms
+4. Pulsing timeline dots
+5. Better color gradients (purple to pink)
+6. More visual depth with shadows
+7. Smooth scroll indicators
+8. Footer improvements
+
+Line count: ~700 lines (vs current 127 lines)
