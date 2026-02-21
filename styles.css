@@ -12,7 +12,11 @@ body {font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
 .nav-links a:hover {color: var(--black);}
 .hero {padding: 160px 0 120px;}
 .hero-title {font-size: clamp(40px, 6vw, 56px); font-weight: 700; line-height: 1.2; margin-bottom: 24px; letter-spacing: -0.02em;}
-.hero-subtitle {font-size: 20px; color: var(--gray); line-height: 1.6; margin-bottom: 40px; max-width: 640px;}
+.hero-subtitle {font-size: 20px; color: var(--gray); line-height: 1.6; margin-bottom: 32px; max-width: 640px;}
+.social-links {display: flex; gap: 16px; margin-bottom: 32px;}
+.social-icon {display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; color: var(--gray); text-decoration: none; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; transition: all 0.2s ease;}
+.social-icon:hover {color: var(--blue); border-color: var(--blue); background: rgba(0, 102, 255, 0.04); transform: translateY(-2px);}
+.social-icon svg {width: 20px; height: 20px;}
 .cta {display: inline-block; padding: 14px 32px; background: var(--blue); color: var(--white); text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; transition: all 0.2s ease;}
 .cta:hover {background: #0052cc; transform: translateY(-2px);}
 .section {padding: 96px 0;}
