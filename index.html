@@ -1,1291 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "k7DdJjaEFPMKZuRyo",
-      });
-   })();
-</script>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jagadeesh Reddy Vanga - Personal Portfolio</title>
-  
-  <!--
-    - favicon
-    -->
-    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-    
-    <!--
-      - custom css link
-      -->
-      <link rel="stylesheet" href="./assets/css/style.css">
-      
-      <!--
-        - google font link
-        -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagadeesh Reddy Vanga | GenAI Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="https://avatars.githubusercontent.com/u/31398032" alt="Jagadeesh Reddy" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Jagadeesh Reddy">Jagadeesh Reddy</h1>
-
-          <p class="title">Generative AI Research Engineer</p>
+    <div class="bg-gradient"></div>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">JRV.</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:jvanga@cs.stonybrook.edu" class="contact-link">jvanga@cs.stonybrook.edu</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+19016863675" class="contact-link">+1 (901) 686-3675</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-            
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              
-              <address>Nashville, Tennessee, USA</address>
-            </div>
-            
-          </li>
-
-          <li class="contact-item">
-            <a href="https://github.com/jagadeesh-r1/portfolio/blob/master/assets/Jagadeesh_Reddy_Vanga_Microsoft.pdf" target="_blank" class="contact-link">
-            <div class="icon-box">
-              <ion-icon name="document-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Resume</p>
-                <a href="https://github.com/jagadeesh-r1/portfolio/blob/master/assets/Jagadeesh_Reddy_Vanga_Microsoft.pdf" target="_blank" class="contact-link resume-button">
-                  UptoDate Version <i class="fas fa-arrow-right"></i>
-                </a>              
-              </div>
-            </a>
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/jagadeesh-r1/" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/vanga-jagadeesh-reddy/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/jagadeesh_r1/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/vanga.jagadeeshreddy" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/jagadeesh_r1" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Experience</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Extra Curricular</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a passionate software engineer with a strong focus on machine learning, AI development, and automation. With a background in Computer Science and hands-on experience in building innovative solutions, I specialize in developing AI models, optimizing complex systems, and driving data-driven insights. My work spans various industries, including fintech and e-commerce, where I've helped streamline operations, improve efficiency, and deliver high-impact solutions.
-          </p>
-
-          <p>
-            I thrive on solving challenging problems through technology, whether it's designing intelligent systems, developing cutting-edge applications, or leading cross-functional teams to achieve 100% project success. My expertise includes Python, C++, Java, Docker, Kubernetes, and a range of machine learning frameworks like PyTorch, Tensorflow and LLM.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-ai.svg" alt="Generative AI icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Generative AI</h4>
-
-                <p class="service-item-text">
-                  Building LLM-powered applications with prompt engineering, RAG pipelines, and vector databases. Specializing in ChatGPT, Claude, and LangChain integrations.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend Development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of applications at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Frontend Development</h4>
-
-                <p class="service-item-text">
-                  Development of user interfaces for web applications.
-                </p>
-              </div>
-
-            </li>
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine learning</h4>
-
-                <p class="service-item-text">
-                  Development of machine learning models for various applications.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud Engineering</h4>
-
-                <p class="service-item-text">
-                  Development of cloud-based applications and services.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <!-- <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="greeting">👋 Hello, I'm</span>
+                <h1>Jagadeesh Reddy <span class="highlight">Vanga</span></h1>
+                <h2 class="subtitle">Generative AI Research Engineer</h2>
+                <p>Building intelligent systems with LLMs at Vanderbilt University</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Get In Touch</a>
+                    <a href="#projects" class="btn secondary">View Projects</a>
                 </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
+                <div class="social-links">
+                    <a href="https://github.com/jagadeesh-r1"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/vanga-jagadeesh-reddy"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:jvanga@cs.stonybrook.edu"><i class="fas fa-envelope"></i></a>
                 </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section> -->
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
         </div>
+    </section>
 
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-          <h3 class="h3 clients-title">Previous Employers</h3>
-          <ul class="clients-list has-scrollbar">
-            <li class="clients-item">
-              <a href="#">
-                <img class="client-logo" src="./assets/images/eunimart-logo.png" alt="client logo">
-              </a>
-            </li>
-            <li class="clients-item">
-              <a href="#">
-                <img class="client-logo" src="./assets/images/skit-logo.png" alt="client logo">
-              </a>
-            </li>
-            <li class="clients-item">
-              <a href="#">
-                <img class="client-logo" src="./assets/images/sbu-logo.png" alt="client logo">
-              </a>
-            </li>
-          </ul>
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="experience">
-
-        <header>
-          <h2 class="h2 article-title">Experience</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Generative AI Research Engineer</h3>
+                        <h4>Vanderbilt University</h4>
+                        <span class="date">Sept 2025 - Present</span>
+                        <p>Leading GenAI systems at Institute for Software Integrated Systems</p>
+                        <div class="tags">
+                            <span>GenAI</span><span>LLMs</span><span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data & AI Engineer</h3>
+                        <h4>Haystream</h4>
+                        <span class="date">May 2025 - Aug 2025</span>
+                        <p>Architected Snowflake data pipelines & ETL workflows</p>
+                        <div class="tags">
+                            <span>Snowflake</span><span>ETL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Generative AI Engineer</h3>
+                        <h4>Astoria AI</h4>
+                        <span class="date">Apr 2025 - Jun 2025</span>
+                        <p>Built AI agents with RAG pipelines, 25% accuracy boost</p>
+                        <div class="tags">
+                            <span>RAG</span><span>Pinecone</span>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Stony Brook University, NewYork</h4>
-
-              <span>2023 — 2024</span>
-
-              <p class="timeline-text">
-                Master of Science in Computer Science.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">KL University, India</h4>
-
-              <span>2016 — 2020</span>
-
-              <p class="timeline-text">
-                Bachelor of Technology in Computer Science and Engineering.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Sri Chaitanya Jr College, India</h4>
-
-              <span>2014 — 2016</span>
-
-              <p class="timeline-text">
-                Intermediate in Mathematics, Physics, Chemistry.
-              </p>
-
-            </li>
-
-            <li class="timeline-item"></li>
-
-              <h4 class="h4 timeline-item-title">Aravinda High School, India</h4>
-
-              <span>2014</span>
-
-              <p class="timeline-text">
-                High School.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-microphone-alt"></i>
+                        <h3>AI Interview Agent</h3>
+                    </div>
+                    <p>Automated interview system with voice interaction</p>
+                    <div class="tags"><span>Ollama</span><span>Whisper</span></div>
+                    <a href="https://github.com/jagadeesh-r1/ai-interview-agent" class="project-link">View →</a>
+                </div>
+                <div class="project-card featured">
+                    <div class="badge">🏆 Best in Show</div>
+                    <div class="project-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>DataPulse</h3>
+                    </div>
+                    <p>AI customer segmentation with Snowflake & Gemma LLM</p>
+                    <div class="tags"><span>Snowflake</span><span>ML</span></div>
+                    <a href="https://github.com/jagadeesh-r1/DataPulse-Backed" class="project-link">View →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>TeleMedi</h3>
+                    </div>
+                    <p>Telemedicine platform with Llama 3.1</p>
+                    <div class="tags"><span>React</span><span>Flask</span></div>
+                    <a href="https://github.com/jagadeesh-r1/telemedi" class="project-link">View →</a>
+                </div>
             </div>
-
-            <h3 class="h3">Work Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Generative AI Research Engineer</h4>
-              <a href="https://www.vanderbilt.edu" target="_blank">
-                <h4 class="h4 timeline-item-title">Vanderbilt University</h4>
-              </a>
-
-              <span>Sept 2025 — Present</span>
-
-              <p class="timeline-text">
-                Leading development of Generative AI software systems at the Institute for Software Integrated Systems. Designing LLM-powered applications using prompt engineering techniques, integrating ChatGPT and Claude into educational platforms. Architecting cloud-native solutions on AWS for GenAI deployment and creating training materials for university-wide AI adoption.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data & AI Engineer (Contract)</h4>
-              <a href="#" target="_blank">
-                <h4 class="h4 timeline-item-title">Haystream</h4>
-              </a>
-
-              <span>May 2025 — Aug 2025 : 4 mos</span>
-
-              <p class="timeline-text">
-                Architected scalable data pipelines in Snowflake, designing robust ETL/ELT workflows for enterprise-level analytics. Engineered solutions integrating data from REST APIs, flat files, and databases into centralized data warehouse. Proactively identified AI/ML opportunities to enhance data quality and operational efficiency.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Generative AI Engineer (Part-time, OPT)</h4>
-              <a href="#" target="_blank">
-                <h4 class="h4 timeline-item-title">Astoria AI</h4>
-              </a>
-
-              <span>Apr 2025 — Jun 2025 : 3 mos</span>
-
-              <p class="timeline-text">
-                Built intelligent AI agents for talent management workflows including candidate screening and job matching. Implemented RAG pipelines with vector-based retrieval using Pinecone and FAISS, enhancing match accuracy by 25%. Contributed to frontend migration to React + Tailwind CSS for improved recruiting workflows.
-              </p>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Software Engineer - Solutions & ML</h4>
-              <a href="https://www.skit.ai" target="_blank">
-                <h4 class="h4 timeline-item-title">skit.ai</h4>
-              </a>
-
-              <span>Oct 2021 — Dec 2022 : 1 yr 3 mos</span>
-
-              <p class="timeline-text">
-                Developed bespoke voice bots for enterprise fintech clients, automating 10% of customer service calls with NLP and speech technologies. Led cross-functional collaborations and optimized ML models, improving operational efficiency and reducing onboarding time for new hires.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Team Lead - AI Development</h4>
-              <a href="https://www.eunimart.com" target="_blank">
-                <h4 class="h4 timeline-item-title">eunimart.com</h4>
-              </a>
-
-              <span>Feb 2021 — Sep 2021 : 8 mos</span>
-
-              <p class="timeline-text">
-                Led a 10-member team across 8 AI projects, achieving a 100% success rate by revamping legacy systems, boosting throughput by 20%, and increasing accuracy by 12%. Facilitated career growth for team members through 1-1 sessions and technical leadership.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Generative AI Research Engineer</h4>
-              <a href="https://www.eunimart.com" target="_blank">
-                <h4 class="h4 timeline-item-title">eunimart</h4>
-              </a>
-
-              <span>Jun 2020 — Sep 2021 : 1 yr 4 mos</span>
-
-              <p class="timeline-text">
-                Engineered AI-driven solutions like product similarity prediction and sales forecasting, improving inventory management and product listing efficiency by 15%. Developed a GPT-2-powered product description generator, reducing content creation time by 80% and cutting seller costs by 40%.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Generative AI Research Engineer - Intern</h4>
-              <a href="https://www.eunimart.com" target="_blank">
-                <h4 class="h4 timeline-item-title">eunimart</h4>
-              </a>
-
-              <span>Jun 2019 — Jun 2020 : 1 yr 1 mos</span>
-
-              <p class="timeline-text">
-                Worked on a team of 5 to develop a machine learning model that predicted customer churn with 95% accuracy, reducing customer acquisition costs by 20%. Created a data visualization tool that improved data analysis efficiency by 30%.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!-- <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section> -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Hackathon Projects</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>VR/AR</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>ML/AI</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Misc</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-              
-              <li class="select-item">
-                <button data-select-item>Hackathon Projects</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>VR/AR</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>ML/AI</button>
-              </li>
-              
-              <li class="select-item">
-                <button data-select-item>Web Applications</button>
-              </li>
-              
-              <li class="select-item">
-                <button data-select-item>Misc</button>
-              </li>
-
-            </ul>
-            
-          </div>
-          
-          <ul class="project-list">
-            <li class="project-item  active" data-filter-item data-category="ml/ai">
-              <a href="https://github.com/jagadeesh-r1/ai-interview-agent">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/ai-interview.jpg" alt="AI Interview Agent" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AI Interview Agent</h3>
-
-                <p class="project-category">ML/AI - GenAI</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="hackathon projects">
-              <a href="https://github.com/jagadeesh-r1/telemedi">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/telemedi.jpg" alt="TeleMedi" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">TeleMedi</h3>
-
-                <p class="project-category">Hackathon Project</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="ml/ai">
-              <a href="https://github.com/jagadeesh-r1/Semantic-Product-Search-Engine-with-Vector-Based-Retrieval">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/semantic-search.jpg" alt="Semantic Search" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Semantic Product Search Engine</h3>
-
-                <p class="project-category">ML/AI - Vector Search</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="hackathon projects">
-              <a href="https://github.com/jagadeesh-r1/BetterYou-Backend-VTHax24">
-  
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-  
-                  <img src="./assets/images/btfy-logo.png" alt="fundo" loading="lazy">
-                </figure>
-  
-                <h3 class="project-title">BetterYou</h3>
-  
-                <p class="project-category">Hackathon Project</p>
-  
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="hackathon projects">
-              <a href="https://github.com/jagadeesh-r1/DataPulse-Backed">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DataPulse</h3>
-
-                <p class="project-category">Hackathon Project</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="hackathon projects">
-              <a href="https://github.com/jagadeesh-r1/ground_water_level">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/gwp.webp" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Ground Water Level Prediction</h3>
-
-                <p class="project-category">Hackathon Project</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="vr/ar">
-              <a href="https://github.com/jagadeesh-r1/myArm">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/vr.jpg" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">myArm</h3>
-
-                <p class="project-category">VR Project</p>
-
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="ml/ai">
-              <a href="https://github.com/jagadeesh-r1/reinforcement-learning-VizDoom">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/doom.jpg" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">VizDoom</h3>
-
-                <p class="project-category">Reinforcement Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="vr/ar">
-              <a href="https://github.com/jagadeesh-r1/AR-Mini-Golf">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/vr.jpg" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AR Mini Golf</h3>
-
-                <p class="project-category">AR Project</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="ml/ai">
-              <a href="https://github.com/jagadeesh-r1/NSFW-Ninja">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/nsfw.jpg" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">NSFW-Ninja</h3>
-
-                <p class="project-category">ML Project</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/jagadeesh-r1/cse564">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">CSE 564: Vizualization Projects</h3>
-
-                <p class="project-category">Frontend Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/jagadeesh-r1/vernacular">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Skit Ai Interview Task</h3>
-
-                <p class="project-category">Backend Development</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="misc">
-              <a href="https://github.com/jagadeesh-r1/BMI-Processor">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/pypi.jpeg" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">BMI-Processor PyPi Package</h3>
-
-                <p class="project-category">Testing Packaging</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/jagadeesh-r1/movies_now">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/movies.jpg" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MoviewNow</h3>
-
-                <p class="project-category">Backend Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="misc">
-              <a href="https://github.com/jagadeesh-r1/azure_functions">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/azure.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Azure Cloud Functions</h3>
-
-                <p class="project-category">Testing Azure Cloud</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/jagadeesh-r1/fulfil">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">fulfil.io Interview Task</h3>
-
-                <p class="project-category">Backend Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/jagadeesh-r1/bluetick">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Bluetick Interview Task</h3>
-
-                <p class="project-category">Backend Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/jagadeesh-r1/eSamudaay_task">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">eSamudhaay Interview Task</h3>
-
-                <p class="project-category">Backend Development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="extra curricular">
-
-        <header>
-          <h2 class="h2 article-title">Fun</h2>
-        </header>
-        <section>
-          <p class="blog-text">
-            Coming soon...
-          </p>
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-      
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-      
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.907019608693!2d-73.14179668459382!3d40.92565327930709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e84c5b5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2sStony%20Brook%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-      
-        <section class="contact-form">
-      
-          <h3 class="h3 form-title">Contact Form</h3>
-      
-          <form id="contact-form" class="form" data-form>
-      
-            <div class="input-wrapper">
-              <input type="text" name="from_name" class="form-input" placeholder="Full name" required data-form-input>
-      
-              <input type="email" name="to_name" class="form-input" placeholder="Email address" required data-form-input>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-grid">
+                <a href="mailto:jvanga@cs.stonybrook.edu" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>jvanga@cs.stonybrook.edu</p>
+                </a>
+                <a href="https://linkedin.com/in/vanga-jagadeesh-reddy" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>vanga-jagadeesh-reddy</p>
+                </a>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Nashville, TN</p>
+                </div>
             </div>
-      
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-      
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-      
-          </form>
-      
-        </section>
-      
-      </article>
+        </div>
+    </section>
 
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <footer>
+        <p>© 2026 Jagadeesh Reddy Vanga</p>
+    </footer>
 </body>
-
 </html>
