@@ -1,4 +1,1 @@
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-<rect width="400" height="400" fill="#0066ff"/>
-<text x="200" y="220" font-size="140" fill="white" text-anchor="middle" font-family="Inter, Arial" font-weight="700">JRV</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><rect width="400" height="400" fill="#06f"/><text x="200" y="220" fill="#fff" font-family="Inter, Arial" font-size="140" font-weight="700" text-anchor="middle">JRV</text></svg>
